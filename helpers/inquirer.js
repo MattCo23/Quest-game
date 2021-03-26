@@ -4,23 +4,33 @@ require('colors');
 const inquirerStart = async () => {
   console.clear();
   console.log('\n');
-  console.log('                   ==========================================');
   console.log(
-    '                ==============================================='
+    '                   =========================================='.blue
   );
   console.log(
-    '              ==== ▄▀▀▄ █░░█ █▀▀ ▄▀▀ ▀█▀ . ▄▀▀ ▄▀▄ ██▄██ █▀▀ ===='
+    '                ==============================================='.blue
   );
   console.log(
-    '            ====== █░▄█ █░░█ █▀▀ ░▀▄ ░█░ . █░█ █▄█ █░▀░█ █▀▀ ======'
+    '              ===='.blue,
+    '▄▀▀▄ █░░█ █▀▀ ▄▀▀ ▀█▀ . ▄▀▀ ▄▀▄ ██▄██ █▀▀'.yellow,
+    '===='.blue
   );
   console.log(
-    '              ==== ░▀▀▀ ░▀▀░ ▀▀▀ ▀▀░ ░▀░ . ░▀▀ ▀░▀ ▀░░░▀ ▀▀▀ ===='
+    '            ======'.blue,
+    '█░▄█ █░░█ █▀▀ ░▀▄ ░█░ . █░█ █▄█ █░▀░█ █▀▀'.yellow,
+    '======'.blue
   );
   console.log(
-    '                ==============================================='
+    '              ===='.blue,
+    '░▀▀▀ ░▀▀░ ▀▀▀ ▀▀░ ░▀░ . ░▀▀ ▀░▀ ▀░░░▀ ▀▀▀'.yellow,
+    '===='.blue
   );
-  console.log('                   ==========================================');
+  console.log(
+    '                ==============================================='.blue
+  );
+  console.log(
+    '                   =========================================='.blue
+  );
   console.log('\n');
 
   const menu = [
@@ -42,10 +52,25 @@ const inquirerStart = async () => {
   ];
 
   const { begin } = await inquirer.prompt(menu);
-  console.log(begin);
   return begin;
+};
+
+const pause = async () => {
+  const question = [
+    {
+      type: 'input',
+      name: 'enter',
+      message: `                        Presione ${
+        'ENTER'.green
+      } para continuar`,
+    },
+  ];
+  console.log('\n');
+
+  await inquirer.prompt(question);
 };
 
 module.exports = {
   inquirerStart,
+  pause,
 };
