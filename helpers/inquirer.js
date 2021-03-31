@@ -70,7 +70,76 @@ const pause = async () => {
   await inquirer.prompt(question);
 };
 
+const wrongAnswer = async () => {
+  console.clear();
+  console.log(
+    '\n\n\n      ---------------------------------------------------------------------'
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    `      |                           ¯|_( ͡❛ ͜ʖ ͡❛)_/¯                          |`
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    `      |                             ${
+      'HAS FALLADO'.red
+    }                           |`
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    '      |           Lo siento, no podemos hacer el juego más fácil          |'
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    '      |                      Pero no te irás de vacío                     |'
+  );
+  console.log(
+    '      |          Podrás escoger entre una de estas experiencias:          |'
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    '      |        --> Bono de 10 trepidantes sesiones en el Senado           |'
+  );
+  console.log(
+    '      |        --> Grabación de un videoclip con Leticia Sabater          |'
+  );
+  console.log(
+    `      |        --> Tour turístico Mutante D'Or: Ciudad de los Tumores     |`
+  );
+  console.log(
+    `      |                   (Chernobyl, Fukushima y Wuhan)                  |`
+  );
+  console.log(
+    `      |        --> Conducción extrema con K.Benzemà, Farruquito           |`
+  );
+  console.log(
+    `      |                           y Ortega Cano                           |`
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    `      |                        ${
+      'PRUEBA SUERTE OTRA VEZ'.green
+    }                     |`
+  );
+  console.log(
+    '      ---------------------------------------------------------------------'
+  );
+};
+
 module.exports = {
   inquirerStart,
   pause,
+  wrongAnswer,
 };
