@@ -1,11 +1,11 @@
 [
   {
-    "question": "¿QUIÉN ES TU ABOGADO?",
-    "q1": "Uno que no cobre al contado",
-    "q2": "Uno de Hacendado",
-    "q3": "El que tengo aquí colgado",
-    "q4": "Cañita Brava",
-    "solution": "3"
+    "question": "¿Quién sustituyó a Luis Enrique ante su ausencia en la Selección Española?",
+    "q1": "Robert Moreno",
+    "q2": "Vicente del Bosque",
+    "q3": "Amunike",
+    "q4": "El Papa Francisco",
+    "solution": "1"
   },
   {
     "question": "¿Qué lema había en la camiseta de Maradona en el partido benéfico contra la droga que promocionó junto con Platini y Pelé?",
@@ -13,6 +13,70 @@
     "q2": "Say perhaps to drugs",
     "q3": "Una al año no hace daño",
     "q4": "La droga es la verdadera salud",
+    "solution": "1"
+  },
+  {
+    "question": "¿Quién fue el capitán de la Selección Española de Balonmano campeona del mundo en 2013?",
+    "q1": "Iñaki Urdangarín",
+    "q2": "Alberto Entrerríos",
+    "q3": "Pablo Echenique",
+    "q4": "Julen Aguinagalde",
+    "solution": "2"
+  },
+  {
+    "question": "¿Quién es el máximo goleador histórico del Real Madrid?",
+    "q1": "Vinicius Jr",
+    "q2": "Hacienda",
+    "q3": "Alfredo Di Stéfano",
+    "q4": "Cristiano Ronaldo",
+    "solution": "4"
+  },
+  {
+    "question": "¿Qué competición tiene más veces Rafa Nadal?",
+    "q1": "Trofeo Teresa Herrera",
+    "q2": "Roland Garros",
+    "q3": "Open de Australia",
+    "q4": "Rally do Botafumeiro",
+    "solution": "2"
+  },
+  {
+    "question": "¿En qué franquicia desempeñó toda su carrera Larry Bird?",
+    "q1": "Boston Celtics",
+    "q2": "Burger King",
+    "q3": "Basket Coruña",
+    "q4": "Larry Bird era notario, no jugador de baloncesto",
+    "solution": "1"
+  },
+  {
+    "question": "¿En qué circuito ganó su primer mundial de F1 Fernando Alonso?",
+    "q1": "GP de Mónaco",
+    "q2": "GP de Fuenlabrada",
+    "q3": "GP de Brasil",
+    "q4": "Santa Comba centro ciudad",
+    "solution": "3"
+  },
+  {
+    "question": "¿Qué provocó el abandono de Carlos Sáinz a 500 metros de la meta en la última carrera del mundial del 98?",
+    "q1": "Atropelló a un jabalí",
+    "q2": "Se le incendió el motor",
+    "q3": "Se le pinchó una rueda",
+    "q4": "Lo paró la Guardia Civil por ir sin ITV",
+    "solution": "2"
+  },
+  {
+    "question": "¿Qué presidente de un equipo de fútbol agredió al secretario de la SD Compostela?",
+    "q1": "M. Rajoy",
+    "q2": "Florentino Pérez",
+    "q3": "Kim Jong-Un",
+    "q4": "Jesús Gil",
+    "solution": "4"
+  },
+  {
+    "question": "¿Qué deportista consiguió la calificación perfecta en una competición olímpica de gimnasia artística?",
+    "q1": "Nadia Comaneci",
+    "q2": "Shanon Miller",
+    "q3": "Almudena Cid",
+    "q4": "Isabel Díaz Ayuso",
     "solution": "1"
   }
 ]
