@@ -10,7 +10,9 @@ const instructions = async () => {
     '            |                                                        |'
   );
   console.log(
-    '            |                 BIENVENIDO A QUEST GAME                |'
+    '            |               ',
+    'BIENVENIDO A QUEST GAME'.blue.bgYellow.bold,
+    '                |'
   );
   console.log(
     '            |                                                        |'
@@ -49,7 +51,9 @@ const instructions = async () => {
     '            |                                                        |'
   );
   console.log(
-    '            |                     ¡MUCHA SUERTE!                     |'
+    '            |',
+    '                     ¡MUCHA SUERTE!'.green,
+    '                   |'
   );
   console.log(
     '            |                                                        |'

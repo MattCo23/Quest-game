@@ -108,19 +108,27 @@ const wrongAnswer = async () => {
     '      |                                                                   |'
   );
   console.log(
-    '      |        --> Bono de 10 trepidantes sesiones en el Senado           |'
+    '      |',
+    '        -->'.yellow,
+    ' Bono de 10 trepidantes sesiones en el Senado         |'
   );
   console.log(
-    '      |        --> Grabación de un videoclip con Leticia Sabater          |'
+    '      |',
+    '        -->'.yellow,
+    ' Grabación de un videoclip con Leticia Sabater        |'
   );
   console.log(
-    `      |        --> Tour turístico Mutante D'Or: Ciudad de los Tumores     |`
+    `      |`,
+    '        -->'.yellow,
+    ` Tour turístico Mutante D'Or: Ciudad de los Tumores   |`
   );
   console.log(
     `      |                   (Chernobyl, Fukushima y Wuhan)                  |`
   );
   console.log(
-    `      |        --> Conducción extrema con K.Benzemà, Farruquito           |`
+    `      |`,
+    '        -->'.yellow,
+    ` Conducción extrema con K.Benzemà, Farruquito         |`
   );
   console.log(
     `      |                           y Ortega Cano                           |`
