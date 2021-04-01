@@ -138,8 +138,101 @@ const wrongAnswer = async () => {
   );
 };
 
+const correctAnswer = async () => {
+  console.clear();
+  console.log(
+    '\n\n      ---------------------------------------------------------------------'
+  );
+  console.log(
+    '      |                                                                   |'
+  );
+  console.log(
+    '      |',
+    ' ░░░░░░░░░░░░░░░░░░░░░░█████████'.yellow,
+    '                                 |'
+  );
+  console.log(
+    '      |',
+    ' ░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███'.yellow,
+    '           ¡HAS ACERTADO!  '.green,
+    '   |'
+  );
+  console.log(
+    '      |',
+    ' ░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██                         '.yellow,
+    ' |'
+  );
+  console.log(
+    '      |',
+    ' ░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███                         '.yellow,
+    '|'
+  );
+  console.log(
+    '      |',
+    ' ░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██'.yellow,
+    '    ¡MÁQUINA!   '.rainbow,
+    '       |'
+  );
+  console.log(
+    '      |',
+    ' ░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██'.yellow,
+    '                        |'
+  );
+  console.log(
+    '      |',
+    ' ░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██'.yellow,
+    '          ¡MONSTRUO! '.rainbow,
+    '  |'
+  );
+  console.log(
+    '      |',
+    ' ░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██'.yellow,
+    '                        | '
+  );
+  console.log(
+    '      |',
+    ' ██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██'.yellow,
+    '     ¡TITÁN!   '.rainbow,
+    '        |'
+  );
+  console.log(
+    '      |',
+    ' █▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██'.yellow,
+    '                        |  '
+  );
+  console.log(
+    '      |',
+    ' ██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██'.yellow,
+    '              ¡PUMA!'.rainbow,
+    '    |'
+  );
+  console.log(
+    '      |',
+    ' ░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██'.yellow,
+    '                           |    '
+  );
+  console.log(
+    '      |',
+    ' ░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█'.yellow,
+    '                             |      '
+  );
+  console.log(
+    '      |',
+    '  ░░████████████░░░█████████████████'.yellow,
+    '   Contesta a la siguiente   |     '
+  );
+  console.log(
+    '      |                                                cerebrito...       |'
+  );
+
+  console.log(
+    '      ---------------------------------------------------------------------'
+  );
+};
+
 module.exports = {
   inquirerStart,
   pause,
   wrongAnswer,
+  correctAnswer,
 };

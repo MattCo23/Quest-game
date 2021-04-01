@@ -1,4 +1,4 @@
-const { q1 } = require('./question1');
+const { q1 } = require('./question');
 
 module.exports = {
   q1,

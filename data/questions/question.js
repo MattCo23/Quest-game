@@ -4,12 +4,12 @@ require('colors');
 const q1 = async (question, id) => {
   console.clear();
   console.log('\n');
-  console.log(`PREGUNTA ${id + 1}`);
-  console.log('==================================================');
-  console.log('==');
-  console.log(`== ${question.question}`);
-  console.log('==');
-  console.log('==================================================');
+  console.log(`PREGUNTA ${id + 1}`.bgRed.brightWhite);
+  console.log('=================================================='.blue);
+  console.log('=='.blue);
+  console.log(`==`.blue, `${question.question}`);
+  console.log('=='.blue);
+  console.log('=================================================='.blue);
   console.log('\n');
 
   let correct = question.solution;

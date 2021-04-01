@@ -1,7 +1,7 @@
 'use strict';
 
 const inquirer = require('inquirer');
-const { pause, wrongAnswer } = require('../helpers/inquirer');
+const { pause, wrongAnswer, correctAnswer } = require('../helpers/inquirer');
 const { q1 } = require('../data/questions/question-controller');
 const data = require('./templates/v1.json');
 
@@ -18,9 +18,7 @@ const game = async () => {
       await wrongAnswer();
       break;
     } else {
-      console.log(
-        '\n\n     Muy bien, has acertado la pregunta más fácil que teníamos, enhorabuena!'
-      );
+      await correctAnswer();
       await pause();
     }
   }
