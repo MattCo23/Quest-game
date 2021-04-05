@@ -1,7 +1,12 @@
 'use strict';
 
 const inquirer = require('inquirer');
-const { pause, wrongAnswer, correctAnswer } = require('../helpers/inquirer');
+const {
+  pause,
+  wrongAnswer,
+  correctAnswer,
+  finishGame,
+} = require('../helpers/inquirer');
 const { q1 } = require('../data/questions/question-controller');
 const data = require('./templates/v1.json');
 
@@ -18,10 +23,12 @@ const game = async () => {
       await wrongAnswer();
       break;
     } else {
+      await finishGame();
       await correctAnswer();
       await pause();
     }
   }
+  await finishGame();
 };
 
 module.exports = {
