@@ -1,0 +1,82 @@
+[
+  {
+    "question": "¿Qué frase dijo para ir a publicidad Patxi Alonso en el famoso desmayo de Julen Lopetegui en La Sexta?",
+    "q1": "El muerto al hoyo y el vivo al bollo",
+    "q2": "¿No querían sorpresas? Pues vamos a publicidad",
+    "q3": "Pues al final los vascos vuelcan donde quieren ¿no?",
+    "q4": "¡Vaya hostia!",
+    "solution": "2"
+  },
+  {
+    "question": "¿Qué humorista suele hacer un especial de Navidad cada 31 de diciembre en La 1?",
+    "q1": "Felipe VI",
+    "q2": "Fernando Esteso",
+    "q3": "José Mota",
+    "q4": "El abuelo con dos copas de vino",
+    "solution": "3"
+  },
+  {
+    "question": "¿A qué periodista besó Iker Casillas en la celebración del Mundial 2010 de Sudáfrica?",
+    "q1": "Sara Carbonero",
+    "q2": "Jorge Javier Vázquez",
+    "q3": "Julio Maldonado 'Maldini'",
+    "q4": "A nadie, estaba tan borracho que besó el suelo un par de veces",
+    "solution": "1"
+  },
+  {
+    "question": "¿Cuál es la frase más famosa de Carlos Arias Navarro dicha por TV?",
+    "q1": "S'a matao Paco",
+    "q2": "Españoles, Franco ha muerto",
+    "q3": "Levante - Las Palmas, X",
+    "q4": "Españoles, Franco ha inaugurado un pantano",
+    "solution": "2"
+  },
+  {
+    "question": "¿Cuál fue el polémico final de la serie Los Serrano?",
+    "q1": "Darth Vader era el padre de Curro",
+    "q2": "Se van todos a la cárcel por incesto",
+    "q3": "Fran Perea gana un Grammy Latino",
+    "q4": "Todo había sido un sueño de Diego",
+    "solution": "4"
+  },
+  {
+    "question": "¿Quién fue el/la primera concursante de Operación Triunfo que fue a Eurovisión?",
+    "q1": "El Príncipe Gitano",
+    "q2": "Juan Camus",
+    "q3": "Rosa López",
+    "q4": "The Weeknd",
+    "solution": "3"
+  },
+  {
+    "question": "¿Qué trágica muerte conmovió a media España en la serie Verano Azul?",
+    "q1": "Chanquete",
+    "q2": "John Lennon",
+    "q3": "Chiquetete",
+    "q4": "Francisco Franco",
+    "solution": "1"
+  },
+  {
+    "question": "¿Qué famoso divulgador presentaba el progama El Hombre y la Tierra?",
+    "q1": "Frank de la Jungla",
+    "q2": "Teodoro García Egea",
+    "q3": "Miguel Ángel Revilla",
+    "q4": "Félix Rodríguez de la Fuente",
+    "solution": "4"
+  },
+  {
+    "question": "¿Cuál era la mascota del programa Grand Prix?",
+    "q1": "Un tiburón martillo",
+    "q2": "Una vaquilla",
+    "q3": "Paquirrín",
+    "q4": "Un pangolín",
+    "solution": "2"
+  },
+  {
+    "question": "¿Qué emisión tiene el récord de audiencia con un 81,5% de share?",
+    "q1": "El Secreto de Puente Viejo",
+    "q2": "La Santa Misa de 13TV",
+    "q3": "Gran Hermano XVIIXIC",
+    "q4": "Final de la Eurocopa 2008",
+    "solution": "4"
+  }
+]

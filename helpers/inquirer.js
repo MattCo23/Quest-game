@@ -70,6 +70,33 @@ const pause = async () => {
   await inquirer.prompt(question);
 };
 
+const selectTheme = async () => {
+  console.clear();
+  console.log('\n\n\n');
+  const theme = [
+    {
+      type: 'list',
+      name: 'cathegory',
+      message:
+        '                            ' +
+        'Escoge una categoría\n\n'.bgBlue.black.bold,
+      choices: [
+        {
+          value: '1',
+          name: '                                  Deportes\n',
+        },
+        {
+          value: '2',
+          name: '                                 Televisión',
+        },
+      ],
+    },
+  ];
+
+  const { cathegory } = await inquirer.prompt(theme);
+  return cathegory;
+};
+
 const wrongAnswer = async () => {
   console.clear();
   console.log(
@@ -357,6 +384,7 @@ const finishGame = async () => {
 module.exports = {
   inquirerStart,
   pause,
+  selectTheme,
   wrongAnswer,
   correctAnswer,
   finishGame,

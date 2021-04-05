@@ -8,11 +8,17 @@ const {
   finishGame,
 } = require('../helpers/inquirer');
 const { q1 } = require('../data/questions/question-controller');
-const data = require('./templates/v1.json');
 
 const { instructions } = require('./questions/instructions');
 
-const game = async () => {
+const game = async (cathegory) => {
+  let data = '';
+  if (cathegory === '1') {
+    data = require('./templates/sports.json');
+  } else if (cathegory === '2') {
+    data = require('./templates/tv.json');
+  }
+
   await instructions();
 
   await pause();
