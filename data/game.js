@@ -24,17 +24,19 @@ const game = async (cathegory) => {
   await pause();
 
   for (const [id, question] of data.entries()) {
+    await pause();
     let check = await q1(question, id);
     if (check[0] !== check[1]) {
       await wrongAnswer();
       break;
     } else {
-      await finishGame();
       await correctAnswer();
       await pause();
+      if (id === 9) {
+        await finishGame();
+      }
     }
   }
-  await finishGame();
 };
 
 module.exports = {
